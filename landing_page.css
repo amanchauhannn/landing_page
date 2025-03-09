@@ -1,0 +1,130 @@
+body{font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;}
+
+.header{display: flex;
+         flex-direction: row;
+         padding:10px;
+         
+        }
+
+.header1{margin-right: auto;
+        margin-left: 100px;
+        font-size: 24px;
+
+        }
+
+.link{margin-right: 20px;}
+
+.link#new{margin-right: 100px;}
+
+.navyblue{background-color: #1F2937;
+         color: #E5E7EB;
+          height: 500px;}
+
+.content1{display: flex;
+            flex-direction: column;
+         padding:50px;
+        flex-wrap: wrap;
+        width: 300px;
+        }
+
+.precontent1{display: flex;
+            flex-direction: row;
+             align-items: center;
+             justify-content: center;
+             padding: 20px;}
+
+.precontent1 .content1 .sub1 {font-size: 48px;
+        color: #F9FAF8;
+        font-weight: 900;
+        
+        }
+
+.image1{display: flex;
+        background-color: gray;
+        width: 350px;
+        height:250px;
+         align-items:center ;
+        }
+
+.button1{background-color: #3882F6;
+        padding:10px;
+        margin-right:150px ;
+        margin-top:25px ;
+        border-radius: 10px}
+
+.content2{display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+
+        }
+
+
+.part2{display: flex;
+        flex-direction: row;     
+        gap:25px;
+        }
+
+.box2{
+        width: 100px;
+        height:100px;
+        border: 3px solid blue;
+        border-radius: 10px;
+        text-align: center;
+
+}
+
+.block{display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100px;}
+
+.part1{font-size: 36px;
+        color: #1F2937;
+        font-weight: 900;
+        margin: 20px;}
+
+.content3{display: flex;
+         flex-direction: column;
+        background-color: #E5E7EB;
+          font-size: 36px;
+          font-family: light italic;
+          color: #1F2937;
+         padding:40px;
+         margin-top: 50px;}
+
+.quote{display: flex;
+        justify-content: end;}
+
+.box1{display: flex;
+        flex-direction: column;
+        margin:20px;
+        margin-right: 80px;
+        }
+
+.content4{display: flex;
+          flex-direction: row;
+         padding: 30px;
+        background-color: #3882F6;
+         border-radius: 10px;
+        margin: 50px;
+        color: white;}
+.signup{
+        background-color: #3882F6;
+        }
+.button1{color: white;
+        background-color: #3882F6;
+        border-color: white;}
+.call{font-weight: 600;
+        }
+
+.footer{display: flex;
+        background-color: #1F2937;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding:20px;}
